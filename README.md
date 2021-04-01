@@ -69,26 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### Working with JSON Server
 
-"users": [
-    {
-      "id": 1,
-      "name": "userName 1",
-      "email": "userEmail1"
-    },
-    {
-      "id": 2,
-      "name": "userName 2",
-      "email": "userEmail2"
-    },
-    {
-      "id": 3,
-      "name": "userName 3",
-      "email": "userEmail3"
-    },
-    {
-      "id": 4,
-      "name": "userName 4",
-      "email": "userEmail4"
-    }
-  ]
+Open new console and type command below, it will setup json-server on custom post:
+
+ *`json-server --watch db.json --port numberOfPort`
+
+  ## Routes
+
+  GET     /users
+  POST    /users
+  DELETE  /users/userId

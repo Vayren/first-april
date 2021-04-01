@@ -13,7 +13,6 @@ const AdminContainer = () => {
 
   const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
-
   
   useEffect(() => {
     const fetchUsers = async (url) => {
