@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "dmytro",
+      "email": "dmytro@dfd.com",
+      "password": "1fdsf32fd",
+      "id": 1
+    },
+    {
+      "name": "ira",
+      "email": "ira@gmail.com",
+      "password": "sdfsdfds",
+      "id": 2
+    },
+    {
+      "name": "alex",
+      "email": "alex@gam.com",
+      "password": "dsfdsf",
+      "id": 3
+    }
+  ]
+}
